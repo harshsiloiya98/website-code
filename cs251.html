@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Harsh Siloiya">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>CS 251</title>
+
+    <!-- For the IITB icon on title -->
+    <link rel="icon" type="image/png" href="iitbicon.png">
+
+    <!--CSS files -->
+    <link rel="stylesheet" type="text/css" href="formstyle.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap/bootstrap.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,500,600,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+
+    <!-- JS for bootstrap -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Harsh Siloiya</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a id="y" href="index.html">Home</a></li>
+        <li><a id="y" href="index.html#int">Interests</a></li>
+        <li><a id="y" href="index.html#cu">Courses Undertaken</a></li>
+        <li><a id="y" href="index.html#cme">Contact Me</a></li>
+        <li class="active"><a id="y" href="#">CS 251</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div id="fm" align="left">
+    <h1 id="k"><center>Form</center></h1>
+    <hr style="height:2px; border:none; color:#dc143c; background-color:#dc143c;" width="20%">
+    <form>
+      <label>First Name:</label><br>
+      <input type="text" name="firstname"><br><br>
+      <label>Last Name:</label><br>
+      <input type="text" name="lastname"><br><br>
+      <label>Email Id:</label><br>
+      <input type="text" name="emailid"><br><br>
+      <label>Password:</label><br>
+      <input type="password" name="pw"><br><br>
+      <label>Gender:</label><br>
+      <input type="radio" name="gender" value="male">Male<br>
+      <input type="radio" name="gender" value="female">Female<br>
+      <input type="radio" name="gender" value="other">Other<br><br>
+      <label>Department:</label><br>
+      <select name="dept">
+      	<option value="ae">Aerospace Engineering</option>
+      	<option value="ch">B.Sc. Chemistry</option>
+      	<option value="cl">Chemical Engineering</option>
+      	<option value="ce">Civil Engineering</option>
+      	<option value="cs">Computer Science and Engineering</option>
+      	<option value="ee">Electrical Engineering</option>
+      	<option value="en">Energy Science and Engineering</option>
+        <option value="ep">Engineering Physics</option>
+      	<option value="me">Mechanical Engineering</option>
+      	<option value="mm">Metallurgical Engineering and Material Science</option>
+      </select><br><br>
+      <input type="submit" name="Submit">
+    </form>
+  <h1 id="k" class="text-center">My Semester Timetable</h1>
+  <hr style="height:2px; border:none; color:#dc143c; background-color:#dc143c;" width="20%">
+  <table style="width: 100%" class="timetable" align="center">
+    <tr>
+      <th></th>
+      <th>8:30-9:25</th>
+      <th>9:30-10:25</th>
+      <th>10:35-11:30</th>
+      <th>11:35-12:30</th>
+      <th rowspan="6">12:30-14:00<br>Lunch Break</th>
+      <th>14:00-15:25</th>
+      <th>15:30-17:00</th>
+      <th>17:30-18:55</th>
+    </tr>
+    <tr>
+      <th>Monday</th>
+      <td></td>
+      <td>CS 207</td>
+      <td>CS 251</td>
+      <td>EE 101</td>
+      <td colspan="2">CS 293</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Tuesday</th>
+      <td>EE 101</td>
+      <td></td>
+      <td>CS 207</td>
+      <td>CS 251</td>
+      <td>CS 215</td>
+      <td>CS 213</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Wednesday</th>
+      <td></td>
+      <td>EE 210 (9:30-10:55)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Thursday</th>
+      <td>CS 251</td>
+      <td>EE 101</td>
+      <td></td>
+      <td>CS 207</td>
+      <td colspan="2">CS 251 Lab</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Friday</th>
+      <td></td>
+      <td>EE 210 (9:30-10:55)</td>
+      <td></td>
+      <td></td>
+      <td>CS 215</td>
+      <td>CS 213</td>
+      <td>EE 101 Tutorial</td>
+    </tr>
+  </table>
+  </div>
+  </body>
+</html>

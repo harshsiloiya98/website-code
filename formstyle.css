@@ -1,0 +1,92 @@
+body {
+  background: #f7f7f7;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+}
+
+h1#k {
+	font-family: 'Shrikhand', cursive;
+	color: #dc143c;
+	font-size: 30px;
+}
+
+div#fm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+a#y {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+input[type=text], input[type=password], select {
+	width: 50%;
+	padding: 10px 10px;
+	margin: 10px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+	border: 3px solid #555;
+}
+
+input[type=submit] {
+    width: 10%;
+    background-color: #ff4500;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #ff6600;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+td {
+	font-family: 'Rubik', sans-serif; 
+}
+
+th, td {
+	padding: 20px 20px;
+	text-align: center;
+}
+
+table.timetable tr:nth-child(even) {
+	background-color: #e0ffff;
+}
+
+table.timetable tr:nth-child(odd) {
+	background-color: #add8e6;
+}
+
+table.timetable th {
+	background-color: #1e90ff;
+	color: white;
+}

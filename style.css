@@ -1,0 +1,105 @@
+body {
+  background: #f7f7f7;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+}
+
+.header {
+  background-image: url("back.jpg");
+  height: 400px;
+  background-position: center center;
+}
+
+h1 {
+  line-height: 76px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 20%;
+}
+
+h2 {
+  color: #B22222;
+  font-family: 'Shrikhand', cursive;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: left;
+}
+
+h3 {
+  font-family: 'Bree Serif', Serif;
+}
+
+h6 {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+ul#mod {
+  margin: 0 auto;
+  padding: 0;
+  width: 50%;
+}
+
+li#x {
+  border-bottom: 1px solid #E4BB97;
+  list-style: none;
+  margin: 100px 0px;
+  padding-bottom: 60px;
+}
+
+li#y {
+  font-family: 'Fira Sans', sans-serif; 
+  font-size: 20px;
+}
+
+p {
+  color: #444444;
+  line-height: 32px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+a#y {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #dc143c; 
+  color: white;
+}
